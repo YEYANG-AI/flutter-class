@@ -157,6 +157,7 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
                       'ຍັງບໍ່ມີບັນຊີບໍ?',
@@ -172,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Text(
                         'ລົງທະບຽນ',
-                        style: TextStyle(color: Colors.cyan, fontSize: 20),
+                        style: TextStyle(color: Colors.cyan, fontSize: 16),
                       ),
                     ),
                   ],
